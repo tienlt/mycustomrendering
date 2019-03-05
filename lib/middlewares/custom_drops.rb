@@ -1,4 +1,4 @@
-require_relative '../products.rb'
+require_relative '../mycustomrendering/liquid/drops/products.rb'
 
 module Mycustomrendering
   module Middlewares
