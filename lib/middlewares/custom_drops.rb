@@ -1,4 +1,4 @@
-require 'mycustomrendering/liquid/drops/products'
+require 'mycustomrendering/liquid/drops/products.rb'
 
 module Mycustomrendering
   module Middlewares
