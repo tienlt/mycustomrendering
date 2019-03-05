@@ -3,7 +3,7 @@ module Mycustomrendering
     module Drops
       class Products < ::Liquid::Drop
         
-        def list(chichi)
+        def list()
           [
             { 'name' => 'iPhone', 'price' => 42.0 }, 
             { 'name' => 'Macbook Pro', 'price' => 42.0 }
