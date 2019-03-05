@@ -1,4 +1,4 @@
-require './products.rb'
+require_relative '../products.rb'
 
 module Mycustomrendering
   module Middlewares
