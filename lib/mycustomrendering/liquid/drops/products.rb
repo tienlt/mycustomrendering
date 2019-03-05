@@ -4,13 +4,7 @@ module Mycustomrendering
       class Products < ::Liquid::Drop
         
         def list()
-                    {
-            "employees":[
-              {"firstName":"John", "lastName":"Doe"}, 
-              {"firstName":"Anna", "lastName":"Smith"},
-              {"firstName":"Peter", "lastName":"Jones"}
-            ]
-          }
+          return :json => {:success=> true, :recordsFiltered => 1}
         end
         
       end
