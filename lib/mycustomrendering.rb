@@ -1,4 +1,4 @@
-require 'mycustomrendering/middlewares/custom_drops.rb'
+require 'mycustomrendering/lib/middlewares/custom_drops.rb'
 require 'locomotive/steam'
 
 Locomotive::Steam.configure_extension do |config|
