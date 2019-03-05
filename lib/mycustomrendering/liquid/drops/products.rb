@@ -4,7 +4,7 @@ module Mycustomrendering
       class Products < ::Liquid::Drop
         
         def list()
-          return :json => {:success=> true, :recordsFiltered => 1}
+          return :json => {'success' : 'true'}
         end
         
       end
