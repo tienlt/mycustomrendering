@@ -3,8 +3,11 @@ module Mycustomrendering
     module Drops
       class Products < ::Liquid::Drop
         
-        def list()
-          return :json => {'success' : 'true'}
+        def list1()
+          "1,2,3,4"
+        end
+        def list2()
+          "wewe,wewe,eeee"
         end
         
       end
