@@ -4,10 +4,13 @@ module Mycustomrendering
       class Products < ::Liquid::Drop
         
         def list()
-          [
-            { 'name' => 'iPhone', 'price' => 42.0 }, 
-            { 'name' => 'Macbook Pro', 'price' => 42.0 }
-           ]
+                    {
+            "employees":[
+              {"firstName":"John", "lastName":"Doe"}, 
+              {"firstName":"Anna", "lastName":"Smith"},
+              {"firstName":"Peter", "lastName":"Jones"}
+            ]
+          }
         end
         
       end
