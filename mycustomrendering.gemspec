@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tienlt"]
   spec.email         = ["thuytienkn@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
+  spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://www.rubydoc.info/gems/locomotivecms-search/0.3.6"
   spec.license       = "MIT"
 
