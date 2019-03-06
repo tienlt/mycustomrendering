@@ -1,6 +1,6 @@
 module Mycustomrendering
   module Liquid
-    module Drop
+    module Drops
       class Products
         def list1en()
           "/en/blog1,/en/blog2,/en/blog3,/en/blog3,/en/blog4,/en/blog5"
