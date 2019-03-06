@@ -1,7 +1,7 @@
 module Mycustomrendering
   module Liquid
     module Drop
-      class Products < Liquid::Drop
+      class Products
         def list1en()
           "/en/blog1,/en/blog2,/en/blog3,/en/blog3,/en/blog4,/en/blog5"
         end
