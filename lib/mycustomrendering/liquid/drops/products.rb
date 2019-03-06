@@ -1,3 +1,5 @@
+
+require_relative '../mycustomrendering/liquid/drops/products.rb'
 module Mycustomrendering
   module Liquid
     module Drops
